@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a Full Stack Developer with 4 years of professional experience in mobile, web, and backend development. My expertise lies in developing robust, scalable full-stack web applications using Laravel and Yii2 frameworks, building mobile applications with Flutter, and creating backend RESTful APIs with the .NET Framework. I specialize in crafting user-friendly, high-performance applications by writing clean, reusable, and maintainable code.
+        I am a Full Stack Developer with 4 years of professional experience in mobile, web, and backend development. My expertise lies in developing robust, scalable full-stack web applications using Laravel and Yii2 frameworks, building mobile applications with Flutter, and creating backend RESTful APIs with the .NET Core Framework. I specialize in crafting user-friendly, high-performance applications by writing clean, reusable, and maintainable code.
         I am passionate about staying updated with the latest trends in both web and mobile development. With experience in leading teams, I am also highly capable of working independently with minimal supervision. I thrive on tackling new challenges and am a quick learner, always eager to expand my skills.
       </motion.p>
 
