@@ -33,7 +33,8 @@ import {
   laravel,
   swift,
   icare_portal,
-  icare_mobile
+  icare_mobile,
+  threeD_portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -357,6 +358,34 @@ const projects = [
     app_store_link: "https://apps.apple.com/sg/app/icare-2-0/id6670236051",
     play_store_link: "https://play.google.com/store/apps/details?id=com.ahg.heyally.main&pcampaignid=web_share",
     website_link: "",
+  },
+  {
+    name: "3D Portfolio",
+    description:
+      "Personal portfolio built with ThreeJs, ReactJs and Tailwind. Hosted on Github Pages",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Github",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: threeD_portfolio,
+    source_code_link: "https://github.com/chihong33/joseph-portfolio",
+    app_store_link: "",
+    play_store_link: "",
+    website_link: "https://chihong33.github.io/joseph-portfolio/",
   },
 ];
 

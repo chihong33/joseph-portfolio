@@ -41,6 +41,7 @@ import vendron_go from "./vendron-go.png";
 import vendron_op from "./vendron-op.png";
 import icare_portal from "./icare-member-portal.png";
 import icare_mobile from "./icare-mobile-app.png";
+import threeD_portfolio from "./3d-portfolio.jpeg";
 
 
 import silkron from "./company/silkron.png";
@@ -87,6 +88,7 @@ export {
   vendron_op,
   icare_portal,
   icare_mobile,
+  threeD_portfolio,
   silkron,
   alliance_healthcare_group,
 };
