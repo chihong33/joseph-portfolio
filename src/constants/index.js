@@ -29,7 +29,11 @@ import {
   flutter,
   silkron,
   alliance_healthcare_group,
-  vendron_op
+  vendron_op,
+  laravel,
+  swift,
+  icare_portal,
+  icare_mobile
 } from "../assets";
 
 export const navLinks = [
@@ -42,6 +46,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -51,81 +59,92 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
+    stack: [
+      {
+        name: "Angular",
+        icon: angular,
+      },
+      {
+        name: "Laravel",
+        icon: laravel,
+      },
+      {
+        name: "TypeScript",
+        icon: typescript,
+      },
+      {
+        name: "React JS",
+        icon: reactjs,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: tailwind,
+      },
+      {
+        name: "Three JS",
+        icon: threejs,
+      },
+    ]
   },
   {
     title: "Mobile App Developer",
     icon: flutter,
+    stack: [
+      {
+        name: "Flutter",
+        icon: flutter,
+      },
+      {
+        name: "Swift",
+        icon: swift,
+      },
+    ]
   },
   {
     title: "Backend Developer",
     icon: backend,
+    stack: [
+      {
+        name: "C#",
+        icon: c_sharp,
+      },
+      {
+        name: ".NET Core",
+        icon: donet_core,
+      },
+      {
+        name: "MySQL",
+        icon: mysql,
+      },
+
+    ]
   },
 ];
 
 const technologies = [
   {
-    name: "Flutter",
-    icon: flutter,
+    name: "Figma",
+    icon: figma,
   },
   {
-    name: "Angular",
-    icon: angular,
+    name: "Adobe XD",
+    icon: xd,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Adobe After Effects",
+    icon: after_effects,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  {
-    name: "Git",
-    icon: git,
-  },
-  // {
-  //   name: "Figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "Docker",
-  //   icon: docker,
-  // },
-  {
-    name: "C#",
-    icon: c_sharp,
-  },
-  // {
-  //   name: "Adobe XD",
-  //   icon: xd,
-  // },
-  // {
-  //   name: "Adobe After Effects",
-  //   icon: after_effects,
-  // },
-  // {
-  //   name: "Adobe Premiere Pro",
-  //   icon: premiere_pro,
-  // },
-  // {
-  //   name: "Adobe Photoshop",
-  //   icon: photoshop,
-  // },
-  {
-    name: ".NET Core",
-    icon: donet_core,
+    name: "Adobe Premiere Pro",
+    icon: premiere_pro,
   },
   {
-    name: "MySQL",
-    icon: mysql,
+    name: "Adobe Photoshop",
+    icon: photoshop,
+  },
+  {
+    name: "Docker",
+    icon: docker,
   },
   {
     name: "Azure",
@@ -218,7 +237,10 @@ const projects = [
       },
     ],
     image: laravel_portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/chihong33/port-folio-laravel",
+    app_store_link: "",
+    play_store_link: "",
+    website_link: "",
   },
   {
     name: "Smart Vending Cloud - Vendron Cloud",
@@ -247,7 +269,10 @@ const projects = [
       },
     ],
     image: vendron_cloud,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
+    app_store_link: "",
+    play_store_link: "",
+    website_link: "https://vendron.com/v2/site/login",
   },
   {
     name: "Vendron Go",
@@ -264,7 +289,10 @@ const projects = [
       },
     ],
     image: vendron_go,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
+    app_store_link: "https://apps.apple.com/us/app/vendron-go/id1220755182",
+    play_store_link: "https://play.google.com/store/apps/details?id=com.silkron.vendrongo&pcampaignid=web_share",
+    website_link: "",
   },
   {
     name: "Vendron OP",
@@ -281,7 +309,54 @@ const projects = [
       },
     ],
     image: vendron_op,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
+    app_store_link: "https://apps.apple.com/us/app/vendron-operator/id1463470727",
+    play_store_link: "https://play.google.com/store/apps/details?id=com.silkron.vendronoperator&pcampaignid=web_share",
+    website_link: "",
+  },
+  {
+    name: "ICare Member Portal",
+    description:
+      "iCare member portal gives you quick access to enjoy your health benefits. Core features including locate nearest panel clinics through Clinic Locator, retrieve your e-Card, submit Claims , fix a Specialist Appointment, request for Letter of Guarantee.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET Core",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: icare_portal,
+    source_code_link: "",
+    app_store_link: "",
+    play_store_link: "",
+    website_link: "https://member.alliancehealthcare.com.sg/",
+  },
+  {
+    name: "ICare Mobile App",
+    description:
+      "iCare Mobile app gives you quick access to enjoy your health benefits. Core features including locate nearest panel clinics through Clinic Locator, retrieve your e-Card, submit Claims , fix a Specialist Appointment, request for Letter of Guarantee, video-consult a doctor through HeyAlly. ",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET Core",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: icare_mobile,
+    source_code_link: "",
+    app_store_link: "https://apps.apple.com/sg/app/icare-2-0/id6670236051",
+    play_store_link: "https://play.google.com/store/apps/details?id=com.ahg.heyally.main&pcampaignid=web_share",
+    website_link: "",
   },
 ];
 

@@ -4,6 +4,9 @@ import mobile from "./mobile.png";
 import flutter from "./flutter.png";
 import web from "./web.png";
 import github from "./github.png";
+import chrome from "./chrome.png";
+import app_store from "./app-store.png";
+import play_store from "./google-play.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -15,7 +18,7 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import docker from "./tech/docker.png";
 import gcp from "./tech/gcp.png";
 import c_sharp from "./tech/c-sharp.png";
@@ -27,12 +30,18 @@ import donet_core from "./tech/donet-core.png";
 import mysql from "./tech/mysql.png";
 import angular from "./tech/angular.png";
 import azure from "./tech/azure.png";
+import laravel from "./tech/laravel.png";
+import swift from "./tech/swift.png";
+import yii from "./tech/yii.png";
 
 
 import laravel_portfolio from "./laravel-portfolio.png";
 import vendron_cloud from "./vendron-cloud.png";
 import vendron_go from "./vendron-go.png";
 import vendron_op from "./vendron-op.png";
+import icare_portal from "./icare-member-portal.png";
+import icare_mobile from "./icare-mobile-app.png";
+
 
 import silkron from "./company/silkron.png";
 import alliance_healthcare_group from "./company/alliance_healthcare_group.png";
@@ -44,6 +53,9 @@ export {
   flutter,
   web,
   github,
+  chrome,
+  app_store,
+  play_store,
   menu,
   close,
   css,
@@ -66,10 +78,15 @@ export {
   mysql,
   angular,
   azure,
+  laravel,
+  swift,
+  yii,
   laravel_portfolio,
   vendron_cloud,
   vendron_go,
   vendron_op,
+  icare_portal,
+  icare_mobile,
   silkron,
   alliance_healthcare_group,
 };
